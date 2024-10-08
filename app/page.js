@@ -1,10 +1,10 @@
-import Home5 from "./(homes)/home-5/page"; // Asegúrate de que esta ruta sea correcta y apunta a home-5
+import Home5 from "./(homes)/home/page"; // Asegúrate de que esta ruta sea correcta y apunta a home-5
 
 export const metadata = {
   title:
-    "Home 5 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Nexodia  || Impulsando el futuro digital con inteligencia, innovación y soluciones que transforman.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Nexodia - Tu aliado en marketing digital, desarrollo web y automatización con IA,",
 };
 
 export default function HomePage5() {

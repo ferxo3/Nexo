@@ -85,20 +85,22 @@ export default function Header2() {
                     data-uc-toggle=""
                     role="button"
                   >
-                    <span>Request a demo</span>
+                    <span>Contactos</span>
                   </a>
                 </div>
                 <div className="d-none lg:d-block">
                   <Link className="text-none fw-medium" href={`/sign-in`}>
-                    <span>Log in</span>
+                    <span></span>  
                   </Link>
                 </div>
                 <Link
-                  className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
-                  href={`/page-pricing`}
-                >
-                  Start free trial
-                </Link>
+  className="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs"
+  href={`/page-pricing`}
+  role="button"
+  onClick={openContactModal} // Aquí puedes mantener la funcionalidad del botón si lo deseas en la linea 93 va el boton de
+>
+  Presupuesto
+</Link>
                 <LanguageSelect2 />
                 <a
                   className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"

@@ -41,17 +41,19 @@ export default function Testimonials() {
                           </div>
                         </div>
                         <p className="fs-5 lg:fs-4 xl:fs-3 fw-medium text-dark dark:text-white lg:px-6">
-                          “We’re looking for people who share our vision! most
-                          of our time used to be taken up by most of alternate
-                          administrative work whereas now we can focus on
-                          building out to help our employees.”
+                          “En los próximos dos años, la inteligencia artificial 
+                          se convertirá en una herramienta clave para transformar
+                           negocios en todos los sectores. Desde automatizar tareas 
+                           repetitivas hasta ofrecer análisis predictivos que mejoran 
+                           la toma de decisiones, la IA permite a 
+                          las empresas ser más eficientes, innovadoras y competitivas.”
                         </p>
                       </div>
                       <div className="panel mt-2 lg:mt-4">
                         <div className="panel vstack items-center gap-0 lg:gap-1">
-                          <h6 className="h6 lg:h5 m-0">Anna Yon</h6>
+                          <h6 className="h6 lg:h5 m-0">Elon Musk</h6>
                           <span className="fs-7 lg:h6 opacity-70">
-                            Senior UI/UX Designer
+                            SEO OpenAI
                           </span>
                         </div>
                       </div>
@@ -63,7 +65,7 @@ export default function Testimonials() {
                 href="#"
                 className="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow"
               >
-                <span>See all feedbacks</span>
+                <span>Inicio</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </a>
             </div>

@@ -87,7 +87,7 @@ export default function BlogDetails3({ blogItem }) {
                 data-uc-lightbox="animation: scale"
               >
                 <p>
-                  She started her blog exactly six months before I launched
+                  LA started her blog exactly six months before I launched
                   Camels &amp; Chocolate, and she really set the bar high for my
                   own blog birthday, Y’all this summer! I’ve already been
                   brainstorming party ideas … who wants to come? It’s no

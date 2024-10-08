@@ -1,7 +1,8 @@
 export const menuItems = [
   {
     //id: 1,
-    label: "Home",
+    label: "Inicio",
+    href: "/home",
     //subItems: [
       
     //],
@@ -9,12 +10,12 @@ export const menuItems = [
   {
     id: 2,
     href: "/page-features",
-    label: "Features",
+    label: "Soluciones",
   },
   {
     id: 3,
     href: "/page-pricing",
-    label: "Pricing",
+    label: "Precios",
   },
   {
     id: 4,
@@ -24,153 +25,22 @@ export const menuItems = [
   {
     id: 5,
     href: "/page-career",
-    label: "Career",
+    label: "Talento",
   },
   {
     id: 6,
     href: "/page-contact",
-    label: "Contact",
+    label: "Contactos",
   },
   {
     id: 7,
-    label: "Inner Pages",
-    subItems: [
-      {
-        label: "Blog",
-        subItems: [
-          {
-            href: "/blog",
-            label: "Full Width",
-          },
-          {
-            href: "/blog-2cols/1",
-            label: "Grid 2 Cols",
-          },
-          {
-            href: "/blog-3cols/1",
-            label: "Grid 3 Cols",
-          },
-          {
-            href: "/blog-4cols/1",
-            label: "Grid 4 Cols",
-          },
-        ],
-      },
-      {
-        label: "Blog - detail",
-        subItems: [
-          {
-            href: "/blog-details/1",
-            label: "Blog detail",
-          },
-          {
-            href: "/blog-details-2/1",
-            label: "Blog detail - v2",
-          },
-        ],
-      },
-      {
-        label: "Useful pages",
-        subItems: [
-          {
-            href: "/sign-up",
-            label: "Sign up",
-          },
-          {
-            href: "/sign-in",
-            label: "Sign in",
-          },
-          {
-            href: "/reset-password",
-            label: "Reset password",
-          },
-          {
-            href: "/page-not-found",
-            label: "404 page",
-          },
-          {
-            href: "/coming-soon",
-            label: "Coming soon",
-          },
-        ],
-      },
-      {
-        label: "Other pages",
-        subItems: [
-          {
-            href: "/page-terms",
-            label: "FAQ",
-          },
-          {
-            href: "/page-terms",
-            label: "Terms of use",
-          },
-          {
-            href: "/page-privacy",
-            label: "Privacy policy",
-          },
-        ],
-      },
-    ],
+    href: "/page-privacy",
+    label: "Privacy policy",
   },
   {
     id: 8,
-    label: "Shop",
-    subItems: [
-      {
-        label: "Shop layouts",
-        subItems: [
-          {
-            href: "/shop",
-            label: "Shop 4 cols",
-          },
-          {
-            href: "/shop-3",
-            label: "Shop 3 cols",
-          },
-          {
-            href: "/shop-2",
-            label: "Shop 2 cols",
-          },
-          {
-            href: "/shop-sidebar",
-            label: "Shop with sidebar",
-          },
-        ],
-      },
-      {
-        href: "/shop-category/demo",
-        label: "Archive category",
-      },
-      {
-        href: "/shop-product-detail/2",
-        label: "Product detail",
-      },
-      {
-        href: "/shop-product-detail-2/2",
-        label: "Product detail - v2",
-      },
-      {
-        href: "/shop-cart",
-        label: "Cart",
-      },
-      {
-        href: "/shop-cart-2",
-        label: "Cart - v2",
-      },
-      {
-        href: "/shop-checkout",
-        label: "Checkout",
-      },
-      {
-        href: "/shop-checkout-2",
-        label: "Checkout - v2",
-      },
-      {
-        href: "/shop-order",
-        label: "Order confirmation",
-      },
-    ],
+    href: "/blog",
+    label: "Blog",
   },
 ];
 
@@ -489,38 +359,38 @@ export const features = [
   {
     id: 1,
     iconClass: "unicon-email",
-    title: "Email Template Builder",
-    description: "Design personalized emails that convert",
+    title: "Plantillas de Correo",
+    description: "Diseñamos correos personalizados.",
   },
   {
     id: 2,
     iconClass: "unicon-blog",
-    title: "Landing Page Builder",
-    description: "Deliver the right message to the right user",
+    title: "Landing Page ",
+    description: "Creamos páginas efectivas para captar clientes.",
   },
   {
     id: 3,
     iconClass: "unicon-increase-level",
-    title: "Reporting & analytics",
-    description: "Track sales & campaign performance",
+    title: "Reportes & Análisis",
+    description: "Monitoreamos y analizamos el rendimiento de tus campañas.",
   },
   {
     id: 4,
     iconClass: "unicon-magic-wand-filled",
-    title: "AI-Powered Tools",
-    description: "Say hello to your AI growth assistant",
+    title: "Herramientas AI",
+    description: "Proveemos herramientas de inteligencia artificial ",
   },
   {
     id: 5,
     iconClass: "unicon-store",
-    title: "E-commerce and retail",
-    description: "Amplify the conversation across multiple channels",
+    title: "E-commerce",
+    description: "Ampliamos la presencia de tu marca en múltiples canales.",
   },
   {
     id: 6,
     iconClass: "unicon-shopping-catalog",
-    title: "See all products",
-    description: "See all our product and services offerings",
+    title: "Ver Todos los Productos",
+    description: "Descubre todas las soluciones y servicios que ofrecemos.",
   },
 ];
 export const homeLinks = [
@@ -557,32 +427,25 @@ export const homeLinks = [
     href: "/home-5",
     imgAlt: "Home - 05",
     imgSrc: "/assets/images/demos/screenshots/index-5.jpg",
-    label: "Web 3.0",
+    label: "Inteligencia Artificial",
   },
 ];
 export const links = [
   {
     id: 1,
     href: "/page-career",
-    label: "Únete a Nuestro Equipo", // Cambiado para reflejar la invitación a unirse al equipo
-    isInternal: true,
-  },
-  {
-    id: 2,
-    href: "/customer-stories",
-    label: "Historias de Clientes", // Relevante para mostrar testimonios o casos de éxito
-    isInternal: true,
+    label: "Únete a Nuestro Equipo", 
   },
   {
     id: 3,
     href: "/resources",
-    label: "Recursos", // Información útil o herramientas que puedas ofrecer en tu sitio
+    label: "Recursos", //
     isInternal: true,
   },
   {
     id: 4,
     href: "/blog",
-    label: "Blog", // Manteniendo el enlace al blog como parte importante de la página
+    label: "Blog", 
     isInternal: true,
   },
-];
+];//

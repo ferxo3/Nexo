@@ -55,12 +55,12 @@ export default function Blog() {
                 >
                   <div className="vstack gap-2">
                     <span className="fw-bold text-primary dark:text-secondary">
-                      Latest posts
+                    Últimas publicaciones
                     </span>
-                    <h2 className="title h3 xl:h2 m-0">Latest from insights</h2>
+                    <h2 className="title h3 xl:h2 m-0">Novedades y Tendencias
+                    </h2>
                     <p className="desc fs-6 sm:fs-5 xl:fs-4 opacity-70">
-                      Interviews, tips, guides, industry best practices, and
-                      news.
+                    Consejos, entrevistas, guías y las mejores prácticas 
                     </p>
                   </div>
                   <div className="d-none sm:d-block">

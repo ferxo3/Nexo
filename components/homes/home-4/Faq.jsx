@@ -29,7 +29,7 @@ export default function Faq() {
                 href="#"
                 className="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow mx-auto"
               >
-                <span>Still have a question?</span>
+                <span>¿Aún tienes dudas?</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </a>
             </div>

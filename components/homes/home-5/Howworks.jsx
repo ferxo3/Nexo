@@ -20,7 +20,7 @@ export default function Howworks() {
                         <Image
                           className="media-cover image"
                           alt="image title"
-                          src="/assets/images/template/feature-image-03.jpg"
+                          src="/assets/images/template/feature-image-03.svg"
                           width="1200"
                           height="1200"
                         />
@@ -32,12 +32,10 @@ export default function Howworks() {
                         data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                       >
                         <h3 className="h3 lg:h2 m-0">
-                          End-to-End Data Shared Management
-                        </h3>
+                        Gestión de Proyectos Digitales                        </h3>
                         <p className="fs-6 lg:fs-5">
-                          Whether you have a team of 2 or 200, our shared team
-                          inboxes keep everyone on the same page and in the
-                          loop.
+                        Organiza, prioriza y colabora en tiempo real con nuestras 
+                        herramientas de gestión avanzadas.
                         </p>
                         <div className="panel w-100 mt-2 lg:mt-4">
                           <ul
@@ -64,7 +62,7 @@ export default function Howworks() {
                         <Image
                           className="media-cover image"
                           alt="image title"
-                          src="/assets/images/template/feature-image-01.jpg"
+                          src="/assets/images/template/feature-image-01.svg"
                           width="1200"
                           height="1200"
                         />
@@ -79,13 +77,12 @@ export default function Howworks() {
                         data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                       >
                         <h3 className="h3 lg:h2 m-0">
-                          Unlock your Productivity Potential Now or Never
+                        Desbloquea el Poder de la Inteligencia Artificial
                         </h3>
                         <p className="fs-6 lg:fs-5">
-                          Unlock your productivity potential with our intuitive
-                          and powerful to-do app. Manage tasks, set priorities,
-                          collaborate with your team, and track progress
-                          effortlessly.
+                        Nuestras soluciones de IA optimizan la 
+                        operativa, permitiendo a tu empresa adaptarse rápidamente a los 
+                        cambios del mercado y alcanzar un nuevo nivel de productividad.
                         </p>
                         <div className="panel mt-2 lg:mt-4">
                           <div className="row child-cols-12 lg:child-cols-6 g-4">
@@ -103,11 +100,10 @@ export default function Howworks() {
                                 </div>
                                 <div className="vstack gap-1 lg:gap-2">
                                   <h5 className="h5 lg:h4 m-0">
-                                    Use Data &amp; AI responsibly
+                                  Automatización &amp;  Inteligente con IA
                                   </h5>
                                   <p className="fs-6">
-                                    Offers a unified platform that fosters
-                                    innovation.
+                                  Integramos IA en tus procesos para ahorrar tiempo y dinero.
                                   </p>
                                 </div>
                               </div>
@@ -126,11 +122,10 @@ export default function Howworks() {
                                 </div>
                                 <div className="vstack gap-1 lg:gap-2">
                                   <h5 className="h5 lg:h4 m-0">
-                                    Track progress effortlessly
+                                  Análisis Predictivo en Tiempo Real
                                   </h5>
                                   <p className="fs-6">
-                                    Providing end-to-end data management today’s
-                                    challenges.
+                                  Predicciones basadas en análisis de patrones y tendencias.
                                   </p>
                                 </div>
                               </div>

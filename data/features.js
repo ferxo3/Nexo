@@ -238,17 +238,17 @@ export const featureItems2 = [
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/zap.svg",
     alt: "feature-icon",
-    title: "Fast and Reliable",
+    title: "Páginas Web a Medida",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Usamos las tecnologías más avanzadas como Webflow y Node.js, asegurando una experiencia fluida",
   },
   {
     order: "order-0",
     iconSrc: "/assets/images/common/icons/database.svg",
     alt: "feature-icon",
-    title: "Discover Data Everywhere",
+    title: "Inteligencia Artificial",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Aprovechamos el poder de la Inteligencia Artificial para optimizar procesos y automatizar tareas",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
   },
@@ -256,17 +256,17 @@ export const featureItems2 = [
     order: "order-2 sm:order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/puzzle.svg",
     alt: "feature-icon",
-    title: "Enrich Data with Context",
+    title: " CRM y Gestión de Clientes",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Centraliza la información de tus clientes, automatiza flujos de trabajo con herramientas como Salesforce",
   },
   {
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/target.svg",
     alt: "feature-icon",
-    title: "Risk Management",
+    title: "Marketing Digital",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "reamos y gestionamos campañas de marketing digital altamente efectivas, utilizando plataformas líderes",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
   },
@@ -274,17 +274,17 @@ export const featureItems2 = [
     order: "order-3 lg:order-0",
     iconSrc: "/assets/images/common/icons/line-chart.svg",
     alt: "feature-icon",
-    title: "Privacy Compliance",
+    title: "Ciberseguridad",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Protege tu negocio y la información de tus clientes con nuestras soluciones avanzadas de ciberseguridad. ",
   },
   {
     order: "order-2 lg:order-0",
     iconSrc: "/assets/images/common/icons/settings.svg",
     alt: "feature-icon",
-    title: "Third-Party Management",
+    title: "Aplicaciones Móviles",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Diseñamos y desarrollamos aplicaciones móviles personalizadas para iOS y Android",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
   },

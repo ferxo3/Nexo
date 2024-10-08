@@ -1,19 +1,22 @@
 export const posts = [
   {
     id: 1,
+    title: "La Revolución de la IA",
+    excerpt: "Cómo la IA está revolucionando el diseño web y el marketing digital",
     image: "/assets/images/blog/post-4.jpg",
-    alt: "UX review presentations",
-    title: "UX review presentations",
-    excerpt:
-      "How do you create compelling presentations that wow your colleagues and impress your managers?",
   },
   {
     id: 2,
+    title: "Tendencias en blockchain",
+    excerpt: "Cómo la tecnología Blockchain está transformando la publicidad",
     image: "/assets/images/blog/post-5.jpg",
-    alt: "Migrating to Linear 101",
-    title: "Migrating to Linear 101",
-    excerpt:
-      "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
+  },
+  {
+    id: 3,
+    slug: "building-your-api-stack",
+    title: "Building your API stack",
+    excerpt: "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
+    image: "/assets/images/blog/post-6.jpg",
   },
   {
     id: 3,

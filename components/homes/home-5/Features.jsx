@@ -16,15 +16,16 @@ export default function Features() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
-                Features
+                Servicios
               </span>
               <h2 className="h3 sm:h2 lg:h1 xl:display-6 m-0">
-                Recognized by the experts
+              Innovación que transforma
               </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management. See how we help your team
-                solve today’s biggest challenges.
+              Nuestra misión es llevar tu empresa 
+              al siguiente nivel con soluciones tecnológicas personalizadas, 
+              automatización avanzada, 
+              y las mejores prácticas en marketing digital y ciberseguridad.
               </p>
             </div>
             <div

@@ -97,7 +97,7 @@ export default function Header3() {
                     role="button"
                     aria-haspopup="true"
                   >
-                    Request a demo
+                    Formulario
                   </a>
                   <div
                     className={`uc-navbar-dropdown p-3 w-300px ft-primary text-unset fs-6 fw-normal p-0 hide-scrollbar rounded-2 overflow-hidden uc-drop ${
@@ -152,7 +152,7 @@ export default function Header3() {
                         className="btn btn-primary btn-sm rounded-default text-white mt-1"
                         type="submit"
                       >
-                        Request a demo
+                        Contactanos
                       </button>
                     </form>
                     <p className="fs-7">

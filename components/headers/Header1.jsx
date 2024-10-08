@@ -58,14 +58,9 @@ export default function Header1() {
                   data-uc-toggle=""
                   role="button"
                 >
-                  <span>Request a demo</span>
+                  <span>Contactos</span>
                 </a>
-              </div>
-              <div className="d-none lg:d-block">
-                <Link className="text-none fw-medium" href={`/sign-in`}>
-                  <span>Log in</span>
-                </Link>
-              </div>
+      
               <Link
                 className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
                 href={`/page-pricing`}

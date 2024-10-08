@@ -17,14 +17,12 @@ export default function Team() {
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
                 <span className="fw-bold text-primary dark:text-secondary">
-                  Our team
+                  Nuestro Equipo
                 </span>
                 <h2 className="title h3 lg:h2 xl:h1 m-0 dark:text-white">
-                  People you’ll be working with
-                </h2>
+                Conecta con un Equipo Global de Innovadores                </h2>
                 <p className="fs-6 xl:fs-5 dark:text-white text-opacity-70">
-                  We’re a 100% remote team spread all across the world.
-                </p>
+                Somos un equipo completamente remoto, compuesto por expertos en marketing, desarrollo web, y automatización desde diferentes partes del mundo.                </p>
               </div>
               <div className="content panel">
                 <div
@@ -58,16 +56,15 @@ export default function Team() {
                 className="vstack items-center gap-2 lg:gap-3 max-w-450px mx-auto text-center lg:mt-4"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
-                <h2 className="h4 sm:h3 m-0">We’re hiring</h2>
+                <h2 className="h4 sm:h3 m-0">Únete a Nexodia</h2>
                 <p className="fs-6 sm:fs-5 lg:fs-4 text-dark dark:text-white text-opacity-70">
-                  We are looking for people that share our vision. Are you
-                  adaptable, driven, and friendly?&nbsp;
+                ¿Eres adaptable, motivado y orientado al crecimiento? &nbsp;
                 </p>
                 <Link
                   className="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs mt-1"
                   href={`/page-career`}
                 >
-                  <span>Submit application</span>
+                  <span>¿Te unes a nosotros?</span>
                 </Link>
               </div>
             </div>

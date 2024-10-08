@@ -18,14 +18,15 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <h1 className="h2 sm:display-6 xl:display-4 fw-light mb-1 xl:mb-2">
-                    Use Data &amp; AI, Responsibly
+                  Automatización &amp; Diseño Web con AI
                   </h1>
                   <p className="fs-6 xl:fs-4">
-                    Unlock your productivity potential with our
+                  En Nexodia, ofrecemos soluciones avanzadas. 
                     <br className="d-none lg:d-block" />
-                    intuitive and powerful to-do app. Manage tasks, set
-                    priorities, collaborate with your team, and track progress
-                    effortlessly.
+                   Desde la automatización de tareas 
+                    repetitivas hasta la personalización de contenidos en tiempo real,
+                     nuestro enfoque en AI permite que tu sitio web funcione de manera más 
+                     inteligente y eficiente.
                   </p>
                   <div className="vstack gap-1 mt-2 xl:mt-4">
                     <form
@@ -37,24 +38,24 @@ export default function Hero() {
                           <input
                             type="email"
                             className="form-control rounded-default h-48px w-full text-black bg-white"
-                            placeholder="Enter your email"
+                            placeholder="Ingresa tu mail para solicitar un demo"
                             required
                           />
                         </div>
                       </div>
                       <div className="col-12 sm:col-auto">
                         <button className="btn btn-md btn-primary rounded-default h-48px w-100 lg:min-w-150px text-white">
-                          Get a demo
+                          Ver un Demo
                         </button>
                       </div>
                     </form>
                     <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                      We care about your data in our
+                      Consulta nuesta
                       <Link
                         href={`/page-privacy`}
                         className="uc-link text-underline dark:text-secondary"
                       >
-                        privacy policy
+                        Politica de Privacidad
                       </Link>
                       .
                     </p>
@@ -147,7 +148,7 @@ export default function Hero() {
                         </li>
                       </ul>
                       <span className="fs-7 fw-medium">
-                        Based on 200+ reviews
+                      Más de 50 reseñas positivas
                       </span>
                     </div>
                   </div>
@@ -162,7 +163,7 @@ export default function Hero() {
                     <Image
                       className="media-cover image"
                       alt="image"
-                      src="/assets/images/template/hero-05.jpg"
+                      src="/assets/images/template/hero-05.png"
                       width="1184"
                       height="1280"
                     />
@@ -172,26 +173,14 @@ export default function Hero() {
                     data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                     style={{ top: "20%" }}
                   >
-                    <Image
-                      alt="Countries"
-                      data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -200; onscroll-trigger: 0; onscroll-duration: 400%; translateY: [-100, 0];"
-                      src="/assets/images/template/hero-05-countries.png"
-                      width="710"
-                      height="854"
-                    />
+                  
                   </div>
                   <div
                     className="hero-five-account position-absolute sm:w-250px lg:w-200px xl:w-300px d-none sm:d-block"
                     data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 750;"
                     style={{ bottom: "20%" }}
                   >
-                    <Image
-                      alt="Account"
-                      data-anime="onscroll: .hero-scroll-scene; onscroll-offset: -200; onscroll-trigger: 0; onscroll-duration: 400%; translateY: [100, 0];"
-                      src="/assets/images/template/hero-05-account.png"
-                      width="605"
-                      height="274"
-                    />
+                     
                   </div>
                 </div>
               </div>

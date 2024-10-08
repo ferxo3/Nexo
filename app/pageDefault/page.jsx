@@ -1,19 +1,22 @@
+"use client";
 import Header2 from "@/components/headers/Header2";
+import Footer5 from "@/components/footers/Footer5";
 
-import Footer2 from "@/components/footers/Footer2";
 export const metadata = {
-  title:
-    "Home || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "Marketing Digital || Nexodia - Automatización con IA",
+  description: "Ofrecemos soluciones de marketing digital, desarrollo web y automatización con inteligencia artificial.",
 };
-export default function page() {
+
+export default function Page() {
   return (
     <>
-      <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
+      <div className="page-wrapper">
         <Header2 />
-        <div id="wrapper" className="wrap"></div>
-        <Footer2 />
+        <div id="wrapper" className="wrap">
+          {/* Aquí va el contenido principal de la página */}
+          {/* Si necesitas agregar contenido nuevo, lo colocas aquí */}
+        </div>
+        <Footer5 />
       </div>
     </>
   );

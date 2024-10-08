@@ -12,10 +12,9 @@ export default function Footer4() {
           <div className="container max-w-xl">
             <div className="uc-footer-inner panel vstack lg:hstack justify-between items-center text-center ltr:lg:text-start rtl:lg:text-end gap-3 sm:gap-4">
               <div className="vstack gap-2">
-                <h2 className="h3 xl:h2 m-0">Sign up now or never!</h2>
+                <h2 className="h3 xl:h2 m-0">Suscríbete! </h2>
                 <p className="fs-6 xl:fs-4 text-dark dark:text-white text-opacity-70 dark:text-white">
-                  Stay up to date with the latest news, announcements, and
-                  articles.
+                ¡Únete ahora para recibir las últimas noticias!
                 </p>
               </div>
               <div className="panel w-100 sm:w-350px xl:w-450px">
@@ -35,7 +34,7 @@ export default function Footer4() {
                   </div>
                   <div className="col-12 sm:col-auto">
                     <button className="btn btn-md btn-primary rounded-default w-full h-48px text-white">
-                      Subscribe
+                    Suscríbete
                     </button>
                   </div>
                 </form>
@@ -61,8 +60,8 @@ export default function Footer4() {
                           />
                         </Link>
                         <p className="mt-2">
-                          Design amazing digital experiences that create more
-                          happy in the world.
+                        Diseñamos increíbles experiencias digitales que crean más felicidad en el mundo.
+
                         </p>
                       </div>
                       <LanguageSelect />
@@ -92,7 +91,7 @@ export default function Footer4() {
               </div>
               <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 border-top dark:text-white">
                 <p className="opacity-60">
-                  Lexend © 2024, All rights reserved.
+                  Nexodia © 2024, All rights reserved.w
                 </p>
                 <ul className="nav-x justify-center gap-2 text-gray-300">
                   {socialLinks.map((link, index) => (

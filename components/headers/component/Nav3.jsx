@@ -9,7 +9,7 @@ export default function Nav3() {
     <>
       <li className="has-dd-menu ">
         <a href="#" role="button" aria-haspopup="true">
-          Products{" "}
+          Productos{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -33,13 +33,13 @@ export default function Nav3() {
                     <div className="panel vstack gap-4">
                       <div className="hstack gap-4 justify-between">
                         <h5 className="h5 fw-medium m-0">
-                          Discover our Products &amp; Solutions
+                          Soluciones
                         </h5>
                         <Link
                           href={`/page-features`}
                           className="btn btn-sm dark:text-white"
                         >
-                          <span>See what's new</span>
+                          <span>Más Servicios</span>
                           <span className="cstack w-32px h-32px rounded-circle bg-primary-100 dark:bg-primary">
                             <i className="icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                           </span>
@@ -148,7 +148,7 @@ export default function Nav3() {
       </li>
       <li className="has-dd-menu" style={{ position: "relative" }}>
         <a href="#" role="button" aria-haspopup="true">
-          Resources{" "}
+          Recursos{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -236,7 +236,7 @@ export default function Nav3() {
       </li>
       <li className="has-dd-menu" style={{ position: "relative" }}>
         <a href="#" role="button" aria-haspopup="true">
-          Learn{" "}
+          Blog{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -287,40 +287,14 @@ export default function Nav3() {
                       </span>
                     </span>
                   </a>
-                </li>
-                <li>
-                  <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
-                  >
-                    <i className="icon-1 unicon-play fw-bold text-primary dark:text-secondary" />
-                    <span className="vstack gap-narrow mt-nnarrow">
-                      <b className="fw-bold dark:text-white">Video Tutorials</b>
-                      <span className="fw-normal">
-                        Assign tasks, share files, and communicate with your
-                        team.
-                      </span>
-                    </span>
-                  </Link>
+               
                 </li>
               </ul>
             </div>
             <div>
               <ul className="uc-nav uc-navbar-dropdown-nav p-2 h-100 bg-gray-25 dark:bg-gray-300 dark:bg-opacity-5">
                 <li>
-                  <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-career`}
-                  >
-                    <i className="icon-1 unicon-star fw-bold text-primary dark:text-secondary" />
-                    <span className="vstack gap-narrow mt-nnarrow">
-                      <b className="fw-bold dark:text-white">We're hiring</b>
-                      <span className="fw-normal">
-                        Managing multiple software and tools for different
-                        tasks.
-                      </span>
-                    </span>
-                  </Link>
+                  
                 </li>
                 <li>
                   <Link
@@ -342,7 +316,7 @@ export default function Nav3() {
         </div>
       </li>
       <li>
-        <Link href={`/page-pricing`}>Pricing</Link>
+        <Link href={`/page-pricing`}>Precios</Link>
       </li>
       <li>
         

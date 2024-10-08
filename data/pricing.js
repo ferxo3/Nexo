@@ -97,31 +97,31 @@ export const tiers = [
 export const pricingPlans = [
   {
     title: "Starter",
-    price: "$49",
-    description: "For creating impressive tools that generate results.",
+    price: "299€",
+    description: "Para pequeñas empresas o emprendedores que  buscan soluciónes digitales.",
     features: [
-      "Up to 10 individual users",
-      "Basic reporting and analytics",
-      "Project Management",
-      "20GB individual data each user",
-      "Basic chat and email support",
+      "Desarrollo de sitio web básico",
+      "SEO básico con optimización inicial",
+      "Automatización inicial con IA",
+      "Google Maps - Whatsapp",
+      "Hasta 5 páginas",
     ],
-    linkText: "Get started",
+    linkText: "Solicitar presupuesto",
 
     additionalClasses: "",
   },
   {
     title: "Pro",
-    price: "$79",
-    description: "For seamless integrations and sending tools in bulk.",
+    price: "799€",
+    description: "Ideal para empresas en crecimiento que necesitan automatización",
     features: [
-      "Access to all Starter features",
-      "200+ integrations",
-      "Unlimited team workspaces",
-      "Approval workflows",
-      "Salesforce integration*",
+      "SEO avanzado con optimización mensual",
+      "Soporte premium con chat en vivo y email",
+      "Mantenimiento mensual del sitio web",
+      "Mail e integración a redes sociales",
+      "CRM y Automatización avanzada con IA",
     ],
-    linkText: "Start a free trial",
+    linkText: "Comienza tu proyecto",
 
     additionalClasses:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",

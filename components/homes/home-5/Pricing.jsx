@@ -16,13 +16,13 @@ export default function Pricing() {
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
                 <span className="fw-bold text-primary dark:text-secondary">
-                  Pricing
+                  Precios
                 </span>
                 <h2 className="title h3 lg:h2 xl:h1 m-0">
-                  Simple, scalable pricing.
+                  Sin cargos extra
                 </h2>
                 <p className="fs-6 xl:fs-5">
-                  No extra charges. No hidden fees.
+                  Sin tarifas ocultas.
                 </p>
               </div>
               <div className="content panel w-100">
@@ -49,17 +49,17 @@ export default function Pricing() {
                               {plan.price}
                             </h3>
                             <span className="h6 lg:h3 m-0 pb-narrow text-dark dark:text-white">
-                              / mo
+                              
                             </span>
                           </div>
                           <p className="desc lg:fs-5">{plan.description}</p>
                           <Link
                             className="btn btn-md lg:btn-lg btn-primary text-white rounded-default w-100 mt-2"
-                            href={`/sign-up`}
+                            href={`/page-contact`}
                           >
                             <span>{plan.linkText}</span>
                           </Link>
-                          <p className="details">Billed annually.</p>
+                          <p className="details">Support Gratuito.</p>
                         </header>
                         <hr className="my-2 md:my-3 lg:my-4" />
                         <div className="tier-body">
@@ -88,9 +88,9 @@ export default function Pricing() {
                   href={`/page-pricing`}
                   className="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs mt-1"
                 >
-                  <span>Compare plans</span>
+                  <span>Comparar planes</span>
                 </Link>
-                <p className="mt-2">Prices exclude any applicable taxes.</p>
+                <p className="mt-2">Precios incluidos IVA</p>
               </div>
             </div>
           </div>

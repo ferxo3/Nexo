@@ -3,19 +3,19 @@ import RelatedBlogs from "./RelatedBlogs";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
+"use client";
 
 export default function BlogDetails2({ blogItem }) {
   return (
     <article className="post type-post single-post pb-4 lg:pb-6 xl:pb-9">
       <div className="container-full">
         <figure className="featured-image m-0">
-          <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded-0 uc-transition-toggle overflow-hidden">
-            <Image
-              className="media-cover image uc-transition-scale-up uc-transition-opaque"
-              alt={blogItem.title}
-              src="/assets/images/blog/post-full.jpg"
-              width="1280"
-              height="853"
+          <Image
+            className="media-cover image uc-transition-scale-up uc-transition-opaque"
+            alt={blogItem.title}
+            src={blogItem.image}  // Usa la imagen del blog
+            width="1280"
+            height="853"
             />
           </figure>
         </figure>
@@ -91,18 +91,12 @@ export default function BlogDetails2({ blogItem }) {
                 data-uc-lightbox="animation: scale"
               >
                 <p>
-                  She started her blog exactly six months before I launched
-                  Camels &amp; Chocolate, and she really set the bar high for my
-                  own blog birthday, Y’all this summer! I’ve already been
-                  brainstorming party ideas … who wants to come? It’s no
-                  coincidence that Buster Keaton and Charlot’s movies of the and
-                  award-winning chefs about what exactly makes their hometowns
-                  In fact, not being able to rely on spoken word made them
-                  better storytellers. They fully understood and used the power
-                  of showing without words. A range of amenities provides many
-                  things to do in Bellevue. About 40 percent of the city’s
-                  population are minorities, which contributes to an overall
-                  diverse range of lifestyles and ideas.
+                  &amp; las
+                 criptomonedas como Bitcoin. Sin embargo, el Blockchain 
+                 va mucho más allá de las finanzas, y ahora está encontrando 
+                 su lugar en el marketing digital. En este artículo, exploramos 
+                 cómo Blockchain está revolucionando la publicidad digital, mejorando la transparencia de las transacciones y fortaleciendo la confianza entre marcas y consumidores.
+
                 </p>
                 <p className="mt-3">
                   I talked to climbers, Olympic mountain bikers, musicians, and

@@ -69,7 +69,7 @@ export default function Header4() {
                       href="tel:01032701349"
                     >
                       <i className="icon-narrow unicon-phone" />
-                      <span>Tel: +1 327 1349</span>
+                      <span>Tel: +34 658410706</span>
                     </a>
                   </div>
                   <div className="uc-navbar-item">
@@ -124,7 +124,7 @@ export default function Header4() {
                   className="btn btn-md btn-primary rounded-default lg:px-3 text-none shadow-xs d-none lg:d-inline-flex"
                   href={`/page-contact`}
                 >
-                  Send inquiry
+                 Contactanos
                 </Link>
                 <a
                   className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"

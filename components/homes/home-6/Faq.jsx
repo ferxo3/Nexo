@@ -33,7 +33,7 @@ export default function Faq() {
                     href={`/page-contact`}
                     className="btn btn-sm lg:btn-md btn-primary px-3 mt-2"
                   >
-                    <span>Still have a question?</span>
+                    <span>¿Aún tienes dudas?</span>
                     <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                   </Link>
                 </div>

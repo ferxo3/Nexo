@@ -127,23 +127,19 @@ export default function BlogDetails1({ blogItem }) {
                 data-uc-lightbox="animation: scale"
               >
                 <p>
-                  She started her blog exactly six months before I launched
-                  Camels &amp; Chocolate, and she really set the bar high for my
-                  own blog birthday, Y’all this summer! I’ve already been
-                  brainstorming party ideas … who wants to come? It’s no
-                  coincidence that Buster Keaton and Charlot’s movies of the and
-                  award-winning chefs about what exactly makes their hometowns
-                  In fact, not being able to rely on spoken word made them
-                  better storytellers. They fully understood and used the power
-                  of showing without words. A range of amenities provides many
-                  things to do in Bellevue. About 40 percent of the city’s
-                  population are minorities, which contributes to an overall
-                  diverse range of lifestyles and ideas.
+                En los últimos años, la inteligencia artificial (IA) &amp; 
+                ha dejado de ser una tecnología emergente para 
+                convertirse en una parte integral de las estrategias 
+                empresariales, especialmente en el ámbito del marketing 
+                digital y el diseño web. Desde la personalización de 
+                contenido hasta la automatización de campañas publicitarias,
+                 la IA está ayudando a las empresas a optimizar sus procesos y 
+                ofrecer experiencias más atractivas a los usuarios.
                 </p>
                 <p className="mt-3">
-                  I talked to climbers, Olympic mountain bikers, musicians, and
-                  award-winning chefs about what exactly makes their hometowns
-                  so special and fun.
+                Una de las aplicaciones más interesantes de la IA 
+                en marketing digital es su capacidad para analizar grandes volúmenes
+                 de datos y tomar decisiones inteligentes basadas en esos análisis.
                 </p>
                 <div className="panel mt-3">
                   <figure className="float-end ms-3 mb-1">
@@ -172,54 +168,51 @@ export default function BlogDetails1({ blogItem }) {
                       )}
                     </Item>
                     <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                      Holding flower, by Anthony Tran
+                      openAI 
                     </figcaption>
                   </figure>
                   <p>
-                    Bike paths and sidewalks make getting to and from the city’s
-                    many festivals, museums, restaurants and music venues easy.
-                    A range of amenities provides many things to do in Bellevue.
-                    About 40 percent of the city’s population are minorities,
-                    which contributes to an overall diverse range of lifestyles
-                    and ideas.
+                  Por ejemplo, plataformas de automatización de marketing como HubSpot o MailChimp, potenciadas por IA, permiten a 
+                  las empresas enviar correos electrónicos en los momentos exactos en que los usuarios están más receptivos. Incluso 
+                   es posible automatizar respuestas personalizadas en tiempo
+                    real mediante
+                   chatbots, mejorando significativamente la atención al cliente.
                   </p>
                   <p className="mt-3">
-                    While Denver sits at the base of the Rocky Mountains, it’s
-                    not considered a mountain town since it takes at least an
-                    hour to get to the Rockies for snowboarding and ski
-                    activities, a local expert explained. Olympic mountain
-                    bikers, musicians, and award-winning chefs about what
-                    exactly makes their hometowns so special and fun.
+                  “He hablado con diversos expertos en marketing digital, 
+                   quienes aseguran que la IA no solo está automatizando 
+                  tareas rutinarias, sino que también está proporcionando 
+                  insights profundos sobre el comportamiento del consumidor. 
+                  Ya no se trata de hacer más trabajo, sino de hacerlo
+                   de manera más inteligente.”
+
                   </p>
                   <p className="mt-3">
-                    In fact, not being able to rely on spoken word made them
-                    better storytellers. They fully understood and used the
-                    power of showing without words. They fully understood and
-                    used the power of showing without words. They fully
-                    understood and used the power of showing without words.
+                  El diseño web también está siendo 
+                  transformado por la IA. Plataformas 
+                  como Wix y Squarespace ya ofrecen 
+                  asistentes inteligentes que pueden 
+                  diseñar sitios web completos basados
+                  en las preferencias y objetivos del 
+                  usuario. De hecho, gracias a la IA, 
+                  hoy en día no necesitas ser un experto 
+                  en programación para crear una página 
+                  web funcional y atractiva.
+
                   </p>
                 </div>
-                <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">Capital of Texas</h4>
+                <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">Optimización del Diseño Web con IA</h4>
                 <p>
-                  Visual storytelling is simply the way most brands will decide
-                  to go in 2016 &amp; beyond, as they try to tell their story to
-                  their customers the oldest and most important unwritten rule
-                  in film industry says that you shouldn’t rely much on words to
-                  tell your story. In fact, you should rely on them as less as
-                  possible. It’s no coincidence that Buster Keaton and Charlot’s
-                  movies remain among the biggest classic movies of all time. In
-                  fact, not being able to rely on spoken word made them better
-                  storytellers. They fully understood and used the power of
-                  showing without words.
+                  La IA analiza los datos de los usuarios para optimizar  &amp;
+                  a disposición de los elementos en una página web, asegurando una mejor experiencia de usuario (UX). Elementos como el machine learning permiten que las páginas se adapten de manera dinámica a las necesidades de los visitantes. Además, herramientas como Figma y Adobe XD están comenzando a integrar IA para ayudar a los diseñadores a crear interfaces más rápidas y eficientes.
+
                 </p>
                 <p className="mt-3">
-                  While Denver sits at the base of the Rocky Mountains, it’s not
-                  considered a mountain town since it takes at least an hour to
-                  get to the Rockies for snowboarding and ski activities, a
-                  local expert explained sits at the base of the Rocky
-                  Mountains, it’s not considered a mountain town since it takes
-                  at least an hour to get to the Rockies for snowboarding and
-                  ski activities, a local expert explained.
+                "Cada vez más diseñadores están adoptando
+                 estas tecnologías para eliminar el trabajo 
+                 repetitivo, lo que les permite concentrarse 
+                 en la creatividad y la estrategia de diseño.”
+
                 </p>
                 <figure className="my-3 sm:my-4">
                   <Item
@@ -247,47 +240,49 @@ export default function BlogDetails1({ blogItem }) {
                     )}
                   </Item>
                   <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                    Pink Marketing, by Mak
+                    AI web desing
                   </figcaption>
                 </figure>
                 <p>
-                  While Denver sits at the base of the Rocky Mountains, it’s not
-                  considered a mountain town since it takes at least an hour to
-                  get to the Rockies for snowboarding and ski activities, a
-                  local expert explained. Olympic mountain bikers, musicians,
-                  and award-winning chefs about what exactly makes their
-                  hometowns so special and fun. <br />
-                  In fact, not being able to rely on spoken word made them
-                  better storytellers. They fully understood and used the power
-                  of showing without words.
-                </p>
-                <p className="mt-3">
-                  Probably the oldest and most important unwritten rule in film
-                  industry says that you shouldn’t rely much on words to tell
-                  your story. In fact, you should rely on them as less as
-                  possible is simply the way most brands will decide to go in
-                  2016 &amp; beyond, as they try to tell their story to their
-                  customers.
+                La IA ha demostrado que no necesitamos 
+                ser programadores expertos para crear 
+                sitios web complejos. Con constructores 
+                de páginas impulsados por IA, el diseño 
+                web se ha convertido en un proceso mucho
+                 más accesible para pequeñas empresas y 
+                 startups. De hecho, la automatización 
+                 está haciendo posible que el diseño web 
+                 se realice en cuestión de minutos. 
+                 Herramientas como ChatGPT y otros
+                  asistentes de IA están ayudando a
+                  los desarrolladores a crear contenido y 
+                  optimizarlo en tiempo real.
+
+
                 </p>
                 <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
-                  Great Schools and Entertainment
-                </h4>
+                El Futuro del Marketing Digital con IA                </h4>
                 <p>
-                  Education is a high point when it comes to analyzing the
-                  quality of life factors that make Ann Arbor one of the best
-                  places to live. The University of Michigan, which has 43,000
-                  students, makes Ann Arbor a perennial candidate for our annual
-                  ranking of the best college towns and plays a big role in the
-                  city’s economy and culture.
+                Mirando hacia el futuro, la IA continuará desempeñando 
+                un papel crucial en la personalización de experiencias. 
+                En 2024, veremos un aumento en el uso de asistentes de 
+                IA para crear contenido dinámico que responda en tiempo 
+                real a las acciones de los usuarios. Esto es clave en 
+                un mundo donde la hiperpersonalización se está 
+                convirtiendo en la norma.
+
                 </p>
                 <p className="mt-3">
-                  While Denver sits at the base of the Rocky Mountains, it’s not
-                  considered a mountain town since it takes considered at least
-                  an hour to get to the Rockies for snowboarding and ski
-                  activities, a local expert explained sits at the base of the
-                  Rocky Mountains, it’s not considered a mountain town since it
-                  takes at least an hour to get to the Rockies for snowboarding
-                  and ski activities, a local expert explained.
+                Con algoritmos de IA, las marcas
+                 pueden crear experiencias que se
+                  sienten únicas para cada usuario,
+                   algo que antes solo las grandes 
+                   empresas podían permitirse. Ahora,
+                    con la IA accesible incluso para
+                     pequeñas y medianas empresas, el
+                      marketing digital está más 
+                      democratizado que nunca.
+
                 </p>
                 <div className="panel my-3">
                   <figure className="float-start me-3 mb-0">
@@ -316,43 +311,43 @@ export default function BlogDetails1({ blogItem }) {
                       )}
                     </Item>
                     <figcaption className="fs-7 mt-1 text-center text-gray-400 dark:text-gray-200">
-                      Great Schools and Entertainment
+                     AI conbinado 
                     </figcaption>
                   </figure>
                   <p>
-                    Bike paths and sidewalks make getting to and from the city’s
-                    many festivals, museums, restaurants and music venues easy.
-                    A range of amenities provides many things to do in Bellevue.
-                    About 40 percent of the city’s population are minorities,
-                    which contributes to an overall diverse range of lifestyles
-                    and ideas.
+                  Además, la IA está impulsando la innovación en 
+                  sectores como la salud, donde se utiliza para predecir enfermedades 
+                  antes de que aparezcan síntomas visibles. Mediante el análisis de 
+                  datos médicos, los algoritmos pueden identificar patrones que los 
+                  médicos humanos
+                   podrían pasar por alto, 
+                   lo que permite diagnósticos más rápidos y precisos.
                   </p>
                   <p>
-                    While Denver sits at the base of the Rocky Mountains, it’s
-                    not considered a mountain town since it takes at least an
-                    hour to get to the Rockies for snowboarding and ski
-                    activities, a local expert explained. Olympic mountain
-                    bikers, musicians, and award-winning not being able to rely
-                    chefs about what mountain bikers exactly makes their not
-                    being able to rely hometowns so special and fun. In fact,
-                    not being able to rely on spoken word made them better
-                    storytellers. They fully understood and used the power of
-                    showing without words. They fully understood and used the
-                    power of showing without words.
+                  Una noticia relevante en el mundo de la inteligencia 
+                  artificial es la reciente expansión de OpenAI, que está 
+                  finalizando una ronda de financiación de $6.5 mil millones, 
+                  elevando su valor a aproximadamente $150 mil millones. 
+                  Esta inversión destaca el fuerte interés de gigantes 
+                  tecnológicos como Microsoft y NVIDIA, que buscan formar
+                  parte de esta nueva ola de IA generativa.
+
                   </p>
                 </div>
                 <p>
-                  Probably the oldest and most important unwritten rule in film
-                  industry says that you shouldn’t rely much on words to tell
-                  your story. In fact, you should rely on them as less as
-                  possible is simply the way most brands will decide to go in
-                  2016 &amp; beyond, as they try to tell their story to their
-                  customers.
+                En paralelo, Amazon está utilizando IA generativa para revolucionar 
+                el comercio electrónico, ofreciendo recomendaciones personalizadas 
+                y herramientas avanzadas de marketing para vendedores. 
+                Estas innovaciones 
+                están diseñadas para mejorar la experiencia de compra &amp; destacando 
+                el uso de videos promocionales generados automáticamente por IA 
+                y avatares de IA para asistir a 
+                los vendedores en sus negocios 
                 </p>
                 <p className="mt-3">
-                  I talked to climbers, Olympic mountain bikers, musicians, and
-                  award-winning chefs about what exactly makes their hometowns
-                  so special and fun.
+                Además, se espera que la IA generativa dé un salto hacia 
+                la producción de video, una evolución de los modelos
+                 que inicialmente se centraban en la creación de imágenes. 
                 </p>
               </div>
             </Gallery>
@@ -371,18 +366,18 @@ export default function BlogDetails1({ blogItem }) {
                 </li>
                 <li>
                   <a href="#" className="gap-0">
-                    Strategies
+                    Tegnología
                     <span className="text-black dark:text-white">,</span>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="gap-0">
-                    Boost <span className="text-black dark:text-white">,</span>
+                    Noticias <span className="text-black dark:text-white">,</span>
                   </a>
                 </li>
                 <li>
                   <a href="#" className="gap-0">
-                    Business
+                    AI
                   </a>
                 </li>
               </ul>
@@ -430,7 +425,7 @@ export default function BlogDetails1({ blogItem }) {
                   <figure className="featured-image m-0 rounded ratio ratio-1x1 uc-transition-toggle overflow-hidden">
                     <Image
                       className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                      alt="Amir Nisi"
+                      alt="Fernando Hurtado"
                       src="/assets/images/blog/post-author.jpg"
                       width="1000"
                       height="667"
@@ -439,11 +434,12 @@ export default function BlogDetails1({ blogItem }) {
                 </div>
                 <div className="col">
                   <div className="panel vstack items-start gap-2 md:gap-3">
-                    <h4 className="h5 m-0">Amir Nisi</h4>
+                    <h4 className="h5 m-0">Fernando Hurtado</h4>
                     <p className="fs-6">
-                      Creative and experienced content writer with 6+ years of
-                      experience eager to create unique content strategy for
-                      Lexend to turn website visitors into customers.
+                    Experto en diseño Web y marketing digital apasionado por 
+                    las tendencias tecnológicas, cuenta con
+                     un máster en blockchain y metaverso. se especializa en crear estrategias 
+                    innovadoras que convierten ideas en resultados.
                     </p>
                     <ul className="nav-x gap-1 text-gray-400 dark:text-white">
                       <li>

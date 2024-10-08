@@ -2,16 +2,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import { openNewsletterModal } from "@/utlis/toggleNewsletterModal";
-import { mainPages, othermenuItems } from "@/data/menu";
-import { usePathname } from "next/navigation";
-
-export default function Nav2() {
-  const pathname = usePathname();
+import { features, homeLinks, links } from "@/data/menu";
+import { featuresMenu, services } from "@/data/services";
+export default function Nav3() {
   return (
     <>
-      <li className="has-dd-menu">
+      <li className="has-dd-menu ">
         <a href="#" role="button" aria-haspopup="true">
-          Features{" "}
+          Productos{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -26,88 +24,121 @@ export default function Nav2() {
             </svg>
           </span>
         </a>
-        <div
-          style={{ top: 127, maxWidth: "100vw" }}
-          className="uc-navbar-dropdown w-100 ft-primary text-unset fs-6 fw-normal p-0 hide-scrollbar rounded-2 overflow-hidden uc-drop"
-        >
-          <div
-            className="row g-0 col-match uc-grid uc-grid-stack"
-            data-uc-grid=""
-          >
-            <div className="col-7">
-              <div className="panel p-3">
-                <h6 className="h6 ms-3">Main pages</h6>
-                <div className="row child-cols-3 g-0">
-                  {mainPages.map((page, index) => (
-                    <div key={index}>
-                      <Link
-                        href={page.href}
-                        className={`vstack p-1 text-none text-center rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 ${
-                          pathname == page.href ? "menuActiveBg" : ""
-                        } `}
-                      >
-                        <div className="featured-image panel border shadow-xs rounded-1 overflow-hidden">
-                          <Image
-                            alt={page.alt}
-                            src={page.src}
-                            width={700}
-                            height={817}
-                          />
-                        </div>
-                        <div className="panel p-1">
-                          <h5 className="fs-7 m-0">{page.title}</h5>
-                        </div>
-                      </Link>
+        <div className="uc-dropbar uc-full-dd uc-products uc-dropbar-top p-0 ft-primary text-unset fs-6 fw-normal hide-scrollbar border-top border-dark dark:border-white border-opacity-5 rounded-0 overflow-hidden shadow-xl bg-white dark:bg-gray-900 uc-drop w-100 ">
+          <div className="container max-w-xl">
+            <div className="uc-dropbar-inner after-bg">
+              <div className="row gx-5 col-match justify-between">
+                <div className="col-8">
+                  <div className="panel vstack gap-4 py-4">
+                    <div className="panel vstack gap-4">
+                      <div className="hstack gap-4 justify-between">
+                        <h5 className="h5 fw-medium m-0">
+                          Soluciones
+                        </h5>
+                        <Link
+                          href={`/page-features`}
+                          className="btn btn-sm dark:text-white"
+                        >
+                          <span>Más Servicios</span>
+                          <span className="cstack w-32px h-32px rounded-circle bg-primary-100 dark:bg-primary">
+                            <i className="icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
+                          </span>
+                        </Link>
+                      </div>
+                      <div className="row child-cols-4 g-3">
+                        {features.map((feature, index) => (
+                          <div key={index}>
+                            <Link
+                              href={`/page-features`}
+                              className="hstack items-start gap-2 p-2 text-none rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150"
+                            >
+                              <span className="icon">
+                                <i
+                                  className={`icon-2 ${feature.iconClass} text-gray-900 dark:text-white`}
+                                />
+                              </span>
+                              <div className="panel">
+                                <h6 className="h6 fs-7 fw-medium mb-narrow">
+                                  {feature.title}
+                                </h6>
+                                <p className="fs-8 text-muted">
+                                  {feature.description}
+                                </p>
+                              </div>
+                            </Link>
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-            <div className="col-5">
-              <div className="panel p-3 bg-gray-25 dark:bg-gray-300 dark:bg-opacity-5">
-                <h6 className="h6 ms-3">Other pages</h6>
-                <div className="row child-cols-6 g-0">
-                  <div>
-                    <ul className="uc-nav uc-navbar-dropdown-nav">
-                      {othermenuItems.slice(0, 8).map((item, index) => (
-                        <li key={index}>
-                          <Link
-                            className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                            href={item.href}
-                          >
-                            <i
-                              className={`icon-1 ${item.icon} fw-bold text-primary dark:text-secondary`}
-                            />
-                            <span className="vstack gap-narrow">
-                              <b className="fw-bold dark:text-white">
-                                {item.title}
-                              </b>
-                            </span>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
+                    <div className="panel vstack gap-2">
+                      <div className="hstack gap-4 justify-between">
+                        <h6 className="h6 m-0 fs-8 text-uppercase">
+                          Servicios
+                        </h6>
+                        <Link
+                          href={`/page-integrations`}
+                          className="btn btn-text h-24px p-0 fs-8 text-uppercase dark:text-white"
+                        >
+                          <span></span>
+                        </Link>
+                      </div>
+                      <div className="row child-cols g-0">
+                        {homeLinks.map((link, index) => (
+                          <div key={index}>
+                            <Link
+                              href={link.href}
+                              className="vstack p-1 text-none text-center rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150"
+                            >
+                              <div className="featured-image panel border shadow-xs rounded-1 overflow-hidden">
+                                <Image
+                                  alt={link.imgAlt}
+                                  src={link.imgSrc}
+                                  width={700}
+                                  height={817}
+                                />
+                              </div>
+                              <div className="panel p-1">
+                                <span className="fs-8 fw-medium m-0 text-gray-900 dark:text-white">
+                                  {link.label}
+                                </span>
+                              </div>
+                            </Link>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <ul className="uc-nav uc-navbar-dropdown-nav">
-                      {othermenuItems.slice(8).map((item, index) => (
-                        <li key={index}>
-                          <Link
-                            className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                            href={item.href}
-                          >
-                            <i
-                              className={`icon-1 ${item.icon} fw-bold text-primary dark:text-secondary`}
-                            />
-                            <span className="vstack gap-narrow">
-                              <b className="fw-bold dark:text-white">
-                                {item.title}
-                              </b>
-                            </span>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
+                </div>
+                <div className="col-4">
+                  <div className="panel vstack gap-4 p-5 bg-gray-25 dark:bg-gray-800">
+                    <div className="panel category-section">
+                      <h6 className="h6 fs-8 text-uppercase">
+                        Soluciones Profesionales
+                      </h6>
+                      <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
+                        {services.map((service, index) => (
+                          <li key={index}>
+                            <a href="#">{service}</a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="panel category-section">
+                      <h6 className="h6 fs-8 text-uppercase">
+                      ¡Empezar es Fácil!
+                      </h6>
+                      <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
+                        {links.map((link, index) => (
+                          <li key={index}>
+                            {link.isInternal ? (
+                              <Link href={link.href}>{link.label}</Link>
+                            ) : (
+                              <a href={link.href}>{link.label}</a>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -117,7 +148,7 @@ export default function Nav2() {
       </li>
       <li className="has-dd-menu" style={{ position: "relative" }}>
         <a href="#" role="button" aria-haspopup="true">
-          Products{" "}
+          Recursos{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -132,74 +163,28 @@ export default function Nav2() {
             </svg>
           </span>
         </a>
-        <div
-          className="uc-navbar-dropdown w-600px ft-primary text-unset fs-6 fw-normal p-0 hide-scrollbar rounded-2 overflow-hidden uc-drop"
-          data-uc-drop="mode: click; offset: 0; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 150;"
-        >
-          <div
-            className="row child-cols-6 g-0 col-match uc-grid uc-grid-stack"
-            data-uc-grid=""
-          >
+        <div className="uc-navbar-dropdown w-600px ft-primary text-unset fs-6 fw-normal p-0 hide-scrollbar rounded-0 overflow-hidden uc-drop fit-content-600">
+          <div className="row child-cols-6 g-0 col-match">
             <div>
               <ul className="uc-nav uc-navbar-dropdown-nav p-2">
-                <li>
-                  <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
-                  >
-                    <i className="icon-1 unicon-checkmark fw-bold text-primary dark:text-secondary" />
-                    <span className="vstack gap-narrow mt-nnarrow">
-                      <b className="fw-bold dark:text-white">To-Do List</b>
-                      <span className="fw-normal">
-                        Managing multiple software and tools for different
-                        tasks.
+                {featuresMenu.map((feature, index) => (
+                  <li key={index}>
+                    <Link
+                      className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
+                      href={feature.href}
+                    >
+                      <i
+                        className={`icon-1 ${feature.iconClass} fw-bold text-primary dark:text-secondary`}
+                      />
+                      <span className="vstack gap-narrow mt-nnarrow">
+                        <b className="fw-bold dark:text-white">
+                          {feature.title}
+                        </b>
+                        <span className="fw-normal">{feature.description}</span>
                       </span>
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
-                  >
-                    <i className="icon-1 unicon-chart-pie fw-bold text-primary dark:text-secondary" />
-                    <span className="vstack gap-narrow mt-nnarrow">
-                      <b className="fw-bold dark:text-white">Reports</b>
-                      <span className="fw-normal">
-                        The latest industry reports, updates and info.
-                      </span>
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
-                  >
-                    <i className="icon-1 unicon-increase-level fw-bold text-primary dark:text-secondary" />
-                    <span className="vstack gap-narrow mt-nnarrow">
-                      <b className="fw-bold dark:text-white">Spreadsheets</b>
-                      <span className="fw-normal">
-                        Suite of tools that cover all aspects of your business.
-                      </span>
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
-                  >
-                    <i className="icon-1 unicon-chart-venn-diagram fw-bold text-primary dark:text-secondary" />
-                    <span className="vstack gap-narrow mt-nnarrow">
-                      <b className="fw-bold dark:text-white">Collaboration</b>
-                      <span className="fw-normal">
-                        Assign tasks, share files, and communicate with your
-                        team.
-                      </span>
-                    </span>
-                  </Link>
-                </li>
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
             <div>
@@ -251,7 +236,7 @@ export default function Nav2() {
       </li>
       <li className="has-dd-menu" style={{ position: "relative" }}>
         <a href="#" role="button" aria-haspopup="true">
-          Resources{" "}
+          Blog{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -267,13 +252,10 @@ export default function Nav2() {
           </span>
         </a>
         <div
-          className="uc-navbar-dropdown w-600px ft-primary text-unset fs-6 fw-normal p-0 hide-scrollbar rounded-2 overflow-hidden uc-drop"
+          className="uc-navbar-dropdown w-600px ft-primary text-unset fs-6 fw-normal p-0 hide-scrollbar rounded-0 overflow-hidden uc-drop"
           data-uc-drop="mode: click; offset: 0; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 150;"
         >
-          <div
-            className="row child-cols-6 g-0 col-match uc-grid uc-grid-stack"
-            data-uc-grid=""
-          >
+          <div className="row child-cols-6 g-0 col-match">
             <div>
               <ul className="uc-nav uc-navbar-dropdown-nav p-2">
                 <li>
@@ -363,12 +345,7 @@ export default function Nav2() {
         <Link href={`/page-pricing`}>Precios</Link>
       </li>
       <li>
-        <a
-          href="https://themeforest.net/user/ib-themes/portfolio"
-          target="_blank"
-        >
-          More
-        </a>
+        
       </li>
     </>
   );

@@ -37,16 +37,17 @@ export default function Support() {
                   height="96"
                 />
               </div>
-              <h2 className="h5 lg:h4 m-0">Still have questions?</h2>
+              <h2 className="h5 lg:h4 m-0">¿Aún tienes dudas?</h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                Can’t find the answer you’re looking for? Please chat to our
-                friendly team.
+              Nuestro equipo está listo para ayudarte a 
+              resolver cualquier inquietud que puedas tener. ¡No dudes en contactarnos y te responderemos lo más pronto posible!
+
               </p>
               <Link
                 href={`/page-contact`}
                 className="btn btn-md btn-primary rounded-default text-white shadow-xs mt-1 lg:mt-2"
               >
-                Get in touch
+                Hablemos
               </Link>
             </div>
           </div>

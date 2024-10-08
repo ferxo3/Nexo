@@ -16,11 +16,10 @@ export default function Faq() {
                   FAQ
                 </span>
                 <h2 className="h4 sm:h3 xl:h2 m-0 text-center">
-                  Frequenlty asked questions:
+                  Preguntas Frecuentes:
                 </h2>
                 <p className="fs-6 xl:fs-5">
-                  Everything you need to know about the product and billing.
-                </p>
+                Todo lo que necesitas saber sobre nuestros servicios                </p>
               </div>
               <div className="panel">
                 <ul
